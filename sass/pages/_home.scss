@@ -1,0 +1,12 @@
+@use '../base/'as *;
+@use '../abstracts/'as a;
+
+.container {
+  max-width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(
+    to bottom right,
+    $clr--rich-black 67%,
+    $clr--dark-blue
+  );
+}
